@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AURA COFFEE - Thưởng thức hương vị Specialty Coffee nguyên bản trong không gian hiện đại và tối giản.">
+  <title>AURA Coffee Roasters | Trải Nghiệm Cà Phê Thủ Công Đẳng Cấp</title>
+
+  <!-- Google Fonts: Syne & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- AOS (Animate On Scroll) CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo animate__animated animate__fadeInLeft">
+        <span class="logo-mark">☕</span> AURA<span>.</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Menu chính">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Trang Chủ</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Câu Chuyện</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Thực Đơn</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Trải Nghiệm</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Liên Hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-action animate__animated animate__fadeInRight">
+        <a href="#menu" class="btn btn-outline">Đặt Bàn Ngay</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION (Dùng Animate.css) -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge animate__animated animate__fadeInDown animate__delay-1s">Specialty Coffee Roasters</span>
+          <h1 class="hero-title animate__animated animate__fadeInUp">
+            Nghệ Thuật Từ <br><span class="text-gradient">Từng Hạt Cà Phê</span>
+          </h1>
+          <p class="hero-desc animate__animated animate__fadeInUp animate__delay-1s">
+            AURA mang đến không gian thưởng thức cà phê nguyên bản, rang mộc thủ công từ những nông trại cao nguyên trứ danh trên toàn thế giới.
+          </p>
+          <div class="hero-actions animate__animated animate__fadeInUp animate__delay-2s">
+            <a href="#menu" class="btn btn-primary">Khám Phá Menu <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#about" class="btn btn-ghost"><i class="fa-solid fa-play"></i> Xem Câu Chuyện</a>
+          </div>
+        </div>
+
+        <div class="hero-visual animate__animated animate__zoomIn animate__delay-1s">
+          <div class="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Không gian AURA Coffee" class="hero-img">
+            <div class="floating-tag">
+              <i class="fa-solid fa-star"></i>
+              <div>
+                <strong>100% Arabica</strong>
+                <span>Single Origin Selection</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION (Sử dụng AOS) -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="sub-title">Về Chúng Tôi</span>
+          <h2 class="section-title">Triết Lý Của Sự Nguyên Bản</h2>
+          <div class="separator"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-icon"><i class="fa-solid fa-seedling"></i></div>
+            <h3 class="card-title">Canh Tác Bền Vững</h3>
+            <p class="card-text">Hợp tác trực tiếp cùng nông dân Cầu Đất & Yirgacheffe, chọn lọc những quả chín mọng đạt chuẩn SCA.</p>
+          </div>
+
+          <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-icon"><i class="fa-solid fa-fire-burner"></i></div>
+            <h3 class="card-title">Rang Mộc Thủ Công</h3>
+            <p class="card-text">Nhiệt độ và luồng khí được kiểm soát tỉ mỉ từng mẻ rang để giải phóng tầng hương vị tinh tế nhất.</p>
+          </div>
+
+          <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-icon"><i class="fa-solid fa-mug-hot"></i></div>
+            <h3 class="card-title">Pha Chế Chuẩn Mực</h3>
+            <p class="card-text">Mỗi tách cà phê là kết quả của công thức chiết xuất chuẩn xác về tỉ lệ nước, áp suất và thời gian.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU SECTION (Cards với Flexbox/Grid và AOS) -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="sub-title">Menu Nổi Bật</span>
+          <h2 class="section-title">Hương Vị Được Yêu Thích</h2>
+          <div class="separator"></div>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Card 1 -->
+          <article class="product-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="product-thumb">
+              <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=600&q=80" alt="Espresso Single Origin">
+              <span class="product-price">65.000₫</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">Signature Cold Brew</h3>
+              <p class="product-desc">Ủ lạnh 16 tiếng với hạt Ethiopia tự nhiên, mang hương hoa nhài và vị ngọt hậu của quả mọng.</p>
+              <div class="product-meta">
+                <span><i class="fa-regular fa-clock"></i> Ủ 16h</span>
+                <span><i class="fa-solid fa-droplet"></i> Ít chua</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="product-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="product-thumb">
+              <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="Flat White Cà Phê Sữa">
+              <span class="product-price">75.000₫</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">Velvet Flat White</h3>
+              <p class="product-desc">Double ristretto phối cùng sữa tươi đánh mịn chuẩn micro-foam sánh ngậy thơm lừng.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-mug-saucer"></i> Cốc ấm</span>
+                <span><i class="fa-solid fa-heart"></i> Bestseller</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="product-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="product-thumb">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Pour Over V60">
+              <span class="product-price">85.000₫</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-name">Pour Over V60 Panama</h3>
+              <p class="product-desc">Phương pháp thủ công tôn vinh các nốt hương quý phái của cam bergamot, mật ong và đào.</p>
+              <div class="product-meta">
+                <span><i class="fa-solid fa-filter"></i> Thủ công</span>
+                <span><i class="fa-solid fa-award"></i> SCA 88+</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL/EXPERIENCE SECTION -->
+    <section id="experience" class="experience-section">
+      <div class="container experience-box" data-aos="zoom-in-up">
+        <div class="experience-content">
+          <span class="badge">Không Gian Kiến Trúc</span>
+          <h2>Chốn Dừng Chân Cho Sự Bình Yên Giữa Lòng Đô Thị</h2>
+          <p>Được thiết kế theo chủ nghĩa Wabi-sabi phối cùng vật liệu bê tông mộc và gỗ trầm ấm. AURA là nơi lý tưởng cho những buổi trò chuyện sâu sắc hoặc những giờ tập trung làm việc hiệu quả.</p>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Hạt Arabica Chọn Lọc</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">4.9/5</span>
+              <span class="stat-label">Đánh Giá Từ Thực Khách</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">300m²</span>
+              <span class="stat-label">Không Gian Xanh Mát</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <a href="#" class="brand-logo footer-logo">☕ AURA<span>.</span></a>
+        <p class="footer-text">Nơi sự tỉ mỉ trong từng giọt cà phê hòa quyện cùng cảm hứng sáng tạo hiện đại.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Liên Kết Nhanh</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Trang Chủ</a></li>
+          <li><a href="#about">Về Chúng Tôi</a></li>
+          <li><a href="#menu">Thực Đơn Mùa Này</a></li>
+          <li><a href="#experience">Không Gian Quán</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Giờ Hoạt Động</h4>
+        <ul class="footer-schedule">
+          <li>Thứ Hai - Thứ Sáu: 07:00 - 22:30</li>
+          <li>Thứ Bảy - Chủ Nhật: 07:00 - 23:00</li>
+          <li><em>Hotline đặt chỗ trước 30 phút</em></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Ghé Thăm Chúng Tôi</h4>
+        <address class="footer-address">
+          <p><i class="fa-solid fa-location-dot"></i> Số 10 Huỳnh Văn Nghệ, Biên Hòa, Đồng Nai</p>
+          <p><i class="fa-solid fa-phone"></i> (+84) 834942xxx </p>
+          <p><i class="fa-solid fa-envelope"></i> minhtamm1230@gmail.com</p>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container copyright-wrapper">
+        <p>&copy; 2026 AURA Coffee Roasters. Toàn quyền sở hữu. Thiết kế bởi Sinh viên LHU.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS Script Initialization -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Khởi tạo thư viện cuộn trang AOS
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: true,
+      offset: 100
+    });
+  </script>
+</body>
+</html>
